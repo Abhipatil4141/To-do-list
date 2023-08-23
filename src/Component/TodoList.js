@@ -11,13 +11,13 @@ function TodoList(props) {
             props.deleteListItem(props.index);
           }}
         ></i>
-        {/* <button
+        <button
           onClick={(e) => {
             props.deleteListItem(props.index);
           }}
         >
           Delete
-        </button> */}
+        </button>
       </span>
     </li>
   );
